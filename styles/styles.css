@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  padding-top: 8.25rem;
+  padding-bottom: 8.25rem;
+}
+
+/* header style start  */
+
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+
+/* Left section styles */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #0b0223;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title span {
+  color: #ff42a5;
+}
+
+/* Right section styles */
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 8px;
+}
+
+.social-icons p {
+  color: #3c354f;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.followIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* header style end  */
+
+/* banner section */
+.banner-section {
+  background-color: #fff;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+
+  /* margin: 0 120px; */
+}
+
+.banner-left-section {
+  flex: 1;
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-image: url("../assets/img/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.leftContentBanner {
+  margin-left: 130px;
+}
+
+.banner-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.banner-title2 {
+  font-size: 55 px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  display: flex;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.bannerIconText {
+  color: #534c64;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  margin-left: 8px;
+}
+
+.banner-buttons {
+  margin-top: 30px;
+}
+
+.button-sign-in {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff42a5;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+
+.button-go-rogue {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4ec5f7;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+
+/* .button.sign-in {
+  background-color: #ff4500;
+} */
+
+/* .right-section {
+  flex: 1;
+} */
+
+.banner-image {
+  width: 70%;
+}
+
+/* we are gamer section */
+.we-are-gammer {
+  background: linear-gradient(90deg,
+      rgba(255, 66, 165, 0.03) 0%,
+      rgba(255, 66, 165, 0.03) 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 100px 0 40px;
+  gap: 20px;
+}
+
+/* .we-are-gammer-img{
+  width: 100%;
+} */
+.gamer-dis {
+  color: #534c64;
+  font-size: 0.8rem;
+  font-weight: 400;
+
+}
+
+.banner-title3 {
+  padding-left: 160px;
+  padding-bottom: 20px;
+  font-size: 55 px;
+  font-weight: 800;
+  display: flex;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightside-we-are-gamear {
+  text-align: right;
+}
+
+.button-gamer {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff42a5;
+  border-radius: 40px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+
+}
+
+.bold {
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .right-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-left-section {
+    background-size: contain;
+    width: 100vw;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-position: center;
+    padding-bottom: 30px;
+  }
+
+  .bannerIconText {
+    font-size: 10px;
+  }
+
+  .banner-buttons {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .button-sign-in {
+    font-size: 10px;
+  }
+
+  .button-go-rogue {
+    font-size: 10px;
+  }
+
+  .right-section1 {
+    display: block;
+    width: 100vw;
+    padding-left: 100px;
+  }
+
+  .we-are-gammer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .we-are-gammer img {
+    width: 130%;
+    /* padding-left: 20px; */
+    margin-top: 20px;
+
+  }
+
+  .rightside-we-are-gamear {
+    text-align: center;
+    padding-left: 70px;
+  }
+
+  .banner-title3 {
+    padding: 0;
+    margin: 25px;
+  }
+
+  .bold {
+    font-size: 13px;
+  }
+}
